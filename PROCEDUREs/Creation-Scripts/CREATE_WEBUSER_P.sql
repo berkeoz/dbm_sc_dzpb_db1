@@ -1,0 +1,6 @@
+CREATE OR REPLACE EDITIONABLE PROCEDURE "CREATE_WEBUSER_P" (p_param varchar2) IS
+begin
+null;
+end;
+/
+

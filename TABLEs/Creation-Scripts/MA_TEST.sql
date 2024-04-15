@@ -1,0 +1,5 @@
+CREATE TABLE "MA_TEST"
+   (	"SPALTE1" VARCHAR2(20),
+	"ID" NUMBER
+   ) ;
+
