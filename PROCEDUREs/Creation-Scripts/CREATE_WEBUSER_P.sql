@@ -1,6 +1,7 @@
-CREATE OR REPLACE EDITIONABLE PROCEDURE "CREATE_WEBUSER_P" (p_param varchar2) IS
+CREATE OR REPLACE EDITIONABLE PROCEDURE "CREATE_WEBUSER_P" IS
+  ret number;
 begin
-null;
+  ret := create_webuser_f(1);
 end;
 /
 
