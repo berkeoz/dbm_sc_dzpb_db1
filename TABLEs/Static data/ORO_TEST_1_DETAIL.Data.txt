@@ -1,0 +1,5 @@
+﻿ID,NAME,FK_TEST1,HASH
+100,Beispiel 1 Detail 1,10,6
+200,Beispiel 2 Detail 1,20,979
+300,Beispiel 3 Detail 1,30,104
+400,Beispiel 1 Detail 2,10,206
