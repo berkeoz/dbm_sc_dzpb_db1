@@ -1,0 +1,170 @@
+{
+  "Column": [
+    {
+      "CHAR_LENGTH": 0.0,
+      "CHAR_USED": null,
+      "CHARACTER_SET_NAME": null,
+      "COLLATED_COLUMN_ID": null,
+      "COLLATION": null,
+      "COLUMN_ID": 1.0,
+      "COLUMN_NAME": "ID",
+      "DATA_DEFAULT": null,
+      "DATA_LENGTH": 22.0,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null,
+      "DATA_TYPE": "NUMBER",
+      "DATA_TYPE_MOD": null,
+      "DEFAULT_LENGTH": null,
+      "DEFAULT_ON_NULL": "NO",
+      "Encrypted": [],
+      "HIDDEN_COLUMN": "NO",
+      "Identity": [],
+      "IDENTITY_COLUMN": "NO",
+      "INTERNAL_COLUMN_ID": 1.0,
+      "NULLABLE": "N",
+      "QUALIFIED_COL_NAME": "ID",
+      "SEGMENT_COLUMN_ID": 1.0,
+      "TABLE_NAME": "ORO_TEST_1_DETAIL",
+      "TYPE": "TABLE",
+      "UNUSABLE_BEFORE": null,
+      "UNUSABLE_BEGINNING": null,
+      "USER_GENERATED": "YES",
+      "VIRTUAL_COLUMN": "NO"
+    },
+    {
+      "CHAR_LENGTH": 20.0,
+      "CHAR_USED": "B",
+      "CHARACTER_SET_NAME": "CHAR_CS",
+      "COLLATED_COLUMN_ID": null,
+      "COLLATION": "USING_NLS_COMP",
+      "COLUMN_ID": 2.0,
+      "COLUMN_NAME": "NAME",
+      "DATA_DEFAULT": null,
+      "DATA_LENGTH": 20.0,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null,
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_TYPE_MOD": null,
+      "DEFAULT_LENGTH": null,
+      "DEFAULT_ON_NULL": "NO",
+      "Encrypted": [],
+      "HIDDEN_COLUMN": "NO",
+      "Identity": [],
+      "IDENTITY_COLUMN": "NO",
+      "INTERNAL_COLUMN_ID": 2.0,
+      "NULLABLE": "Y",
+      "QUALIFIED_COL_NAME": "NAME",
+      "SEGMENT_COLUMN_ID": 2.0,
+      "TABLE_NAME": "ORO_TEST_1_DETAIL",
+      "TYPE": "TABLE",
+      "UNUSABLE_BEFORE": null,
+      "UNUSABLE_BEGINNING": null,
+      "USER_GENERATED": "YES",
+      "VIRTUAL_COLUMN": "NO"
+    },
+    {
+      "CHAR_LENGTH": 0.0,
+      "CHAR_USED": null,
+      "CHARACTER_SET_NAME": null,
+      "COLLATED_COLUMN_ID": null,
+      "COLLATION": null,
+      "COLUMN_ID": 3.0,
+      "COLUMN_NAME": "FK_TEST1",
+      "DATA_DEFAULT": null,
+      "DATA_LENGTH": 22.0,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null,
+      "DATA_TYPE": "NUMBER",
+      "DATA_TYPE_MOD": null,
+      "DEFAULT_LENGTH": null,
+      "DEFAULT_ON_NULL": "NO",
+      "Encrypted": [],
+      "HIDDEN_COLUMN": "NO",
+      "Identity": [],
+      "IDENTITY_COLUMN": "NO",
+      "INTERNAL_COLUMN_ID": 3.0,
+      "NULLABLE": "Y",
+      "QUALIFIED_COL_NAME": "FK_TEST1",
+      "SEGMENT_COLUMN_ID": 3.0,
+      "TABLE_NAME": "ORO_TEST_1_DETAIL",
+      "TYPE": "TABLE",
+      "UNUSABLE_BEFORE": null,
+      "UNUSABLE_BEGINNING": null,
+      "USER_GENERATED": "YES",
+      "VIRTUAL_COLUMN": "NO"
+    }
+  ],
+  "General": [
+    {
+      "IOT_TYPE": null,
+      "TABLE_NAME": "ORO_TEST_1_DETAIL",
+      "TYPE": "TABLE"
+    }
+  ],
+  "Table_Constraints": [
+    {
+      "BAD": null,
+      "Columns": [
+        {
+          "COLUMN_NAME": "FK_TEST1",
+          "POSITION": 1.0,
+          "TABLE_NAME": "ORO_TEST_1_DETAIL"
+        }
+      ],
+      "CONSTRAINT_TYPE": "R",
+      "DEFERRABLE": "NOT DEFERRABLE",
+      "DEFERRED": "IMMEDIATE",
+      "DELETE_RULE": "NO ACTION",
+      "GENERATED": "USER NAME",
+      "GENERATED_CONSTRAINT_NAME": "FK_ORO_TEST_1_DETAIL",
+      "INDEX_NAME": null,
+      "INVALID": null,
+      "R_CONSTRAINT_NAME": "PK_ORO_TEST_1",
+      "RELY": null,
+      "RemoteConstraint": [
+        {
+          "COLUMN_NAME": "ID",
+          "POSITION": 1.0,
+          "R_CONSTRAINT_NAME": "PK_ORO_TEST_1",
+          "TABLE_NAME": "ORO_TEST_1"
+        }
+      ],
+      "SEARCH_CONDITION": null,
+      "SEARCH_CONDITION_VC": null,
+      "STATUS": "ENABLED",
+      "TABLE_NAME": "ORO_TEST_1_DETAIL",
+      "TYPE": "TABLE",
+      "VALIDATED": "VALIDATED",
+      "VIEW_RELATED": null
+    },
+    {
+      "BAD": null,
+      "Columns": [
+        {
+          "COLUMN_NAME": "ID",
+          "POSITION": 1.0,
+          "TABLE_NAME": "ORO_TEST_1_DETAIL"
+        }
+      ],
+      "CONSTRAINT_TYPE": "P",
+      "DEFERRABLE": "NOT DEFERRABLE",
+      "DEFERRED": "IMMEDIATE",
+      "DELETE_RULE": null,
+      "GENERATED": "USER NAME",
+      "GENERATED_CONSTRAINT_NAME": "PK_ORO_TEST_1_DETAIL",
+      "INDEX_NAME": "PK_ORO_TEST_1_DETAIL",
+      "INVALID": null,
+      "R_CONSTRAINT_NAME": null,
+      "RELY": null,
+      "RemoteConstraint": [],
+      "SEARCH_CONDITION": null,
+      "SEARCH_CONDITION_VC": null,
+      "STATUS": "ENABLED",
+      "TABLE_NAME": "ORO_TEST_1_DETAIL",
+      "TYPE": "TABLE",
+      "VALIDATED": "VALIDATED",
+      "VIEW_RELATED": null
+    }
+  ],
+  "Table_Indexes": []
+}
