@@ -1,4 +1,4 @@
-﻿ID,DESCRIPTION,NAME,HASH
-10,Beispiel 1,Oliver_1,580
-20,Beispiel 2,Oliver_2,480
-30,Beispiel 3,Oliver_3,937
+﻿ID,DESCRIPTION,HASH
+10,Beispiel 1,867
+20,Beispiel 2,720
+30,Beispiel 3,186
