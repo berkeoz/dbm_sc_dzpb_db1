@@ -1,0 +1,4 @@
+﻿ID,NAME,PRENAME,CITY,HASH
+1,Becker,Dieter,Berlin,244
+2,Schneider,Marc,München,445
+3,Müller,Ralf,Hamburg,863
