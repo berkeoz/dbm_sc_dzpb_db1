@@ -123,6 +123,37 @@
       "UNUSABLE_BEGINNING": null,
       "USER_GENERATED": "YES",
       "VIRTUAL_COLUMN": "NO"
+    },
+    {
+      "CHAR_LENGTH": 0.0,
+      "CHAR_USED": null,
+      "CHARACTER_SET_NAME": null,
+      "COLLATED_COLUMN_ID": null,
+      "COLLATION": null,
+      "COLUMN_ID": 5.0,
+      "COLUMN_NAME": "CITY_NO",
+      "DATA_DEFAULT": null,
+      "DATA_LENGTH": 22.0,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null,
+      "DATA_TYPE": "NUMBER",
+      "DATA_TYPE_MOD": null,
+      "DEFAULT_LENGTH": null,
+      "DEFAULT_ON_NULL": "NO",
+      "Encrypted": [],
+      "HIDDEN_COLUMN": "NO",
+      "Identity": [],
+      "IDENTITY_COLUMN": "NO",
+      "INTERNAL_COLUMN_ID": 5.0,
+      "NULLABLE": "Y",
+      "QUALIFIED_COL_NAME": "CITY_NO",
+      "SEGMENT_COLUMN_ID": 5.0,
+      "TABLE_NAME": "ORO_TEST_2",
+      "TYPE": "TABLE",
+      "UNUSABLE_BEFORE": null,
+      "UNUSABLE_BEGINNING": null,
+      "USER_GENERATED": "YES",
+      "VIRTUAL_COLUMN": "NO"
     }
   ],
   "General": [
@@ -133,6 +164,41 @@
     }
   ],
   "Table_Constraints": [
+    {
+      "BAD": null,
+      "Columns": [
+        {
+          "COLUMN_NAME": "CITY_NO",
+          "POSITION": 1.0,
+          "TABLE_NAME": "ORO_TEST_2"
+        }
+      ],
+      "CONSTRAINT_TYPE": "R",
+      "DEFERRABLE": "NOT DEFERRABLE",
+      "DEFERRED": "IMMEDIATE",
+      "DELETE_RULE": "NO ACTION",
+      "GENERATED": "USER NAME",
+      "GENERATED_CONSTRAINT_NAME": "FK_ORO_TEST_2",
+      "INDEX_NAME": null,
+      "INVALID": null,
+      "R_CONSTRAINT_NAME": "PK_ORO_TEST_3",
+      "RELY": null,
+      "RemoteConstraint": [
+        {
+          "COLUMN_NAME": "ID",
+          "POSITION": 1.0,
+          "R_CONSTRAINT_NAME": "PK_ORO_TEST_3",
+          "TABLE_NAME": "ORO_TEST_3"
+        }
+      ],
+      "SEARCH_CONDITION": null,
+      "SEARCH_CONDITION_VC": null,
+      "STATUS": "ENABLED",
+      "TABLE_NAME": "ORO_TEST_2",
+      "TYPE": "TABLE",
+      "VALIDATED": "VALIDATED",
+      "VIEW_RELATED": null
+    },
     {
       "BAD": null,
       "Columns": [
