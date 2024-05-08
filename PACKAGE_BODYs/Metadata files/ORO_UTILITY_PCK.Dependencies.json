@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "",
+    "name": "ORO_UTILITY_PCK",
+    "type": "PACKAGE_SPEC"
+  },
+  {
+    "schema": "",
+    "name": "STANDARD",
+    "type": "PACKAGE_SPEC"
+  }
+]
