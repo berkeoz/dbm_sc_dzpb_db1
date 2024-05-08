@@ -1,0 +1,7 @@
+CREATE OR REPLACE EDITIONABLE PROCEDURE "CALL_NOT_EXIST"
+is
+begin
+  not_exists;
+end;
+/
+
